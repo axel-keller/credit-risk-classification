@@ -27,7 +27,7 @@ A logistic regression model was trained using historical loan data to classify l
 
 Key Findings
 
-✅ Strengths:
+Strengths:
 
 - Extremely high accuracy (99%), meaning the model is very reliable for most cases.
   
@@ -41,14 +41,16 @@ Key Findings
 
 - Class imbalance issue (18,765 healthy vs. 619 high-risk loans), which may bias the model toward predicting loans as low-risk.
 
-##Recommendation: Should the Company Use This Model?
-❌ Not Recommended Without Adjustments
+## Recommendation: Should the Company Use This Model?
+
+Not Recommended Without Adjustments
 
 While the model performs very well overall, it may incorrectly deny too many good loans due to its false positive rate for high-risk loans. This could negatively impact customer satisfaction and business revenue.
 
 Next Steps for Improvement
-🔹 Balance the Data using SMOTE (Synthetic Minority Over-sampling Technique) to better represent high-risk loans.
-🔹 Adjust the Decision Threshold to reduce false positives (lowering from 0.5 to 0.3).
-🔹 Explore Alternative Models (e.g., Random Forest, Gradient Boosting) to improve classification without sacrificing accuracy.
 
-🚀 Final Verdict: The model has strong potential but should be refined before deployment to ensure fairer loan approvals while minimizing financial risk.
+- Adjust the Decision Threshold to reduce false positives (lowering from 0.5 to 0.3).
+
+- Explore Alternative Models (e.g., Random Forest, Gradient Boosting) to improve classification without sacrificing accuracy.
+
+Final Verdict: The model has strong potential but should be refined before deployment to ensure fairer loan approvals while minimizing financial risk.
