@@ -23,7 +23,7 @@ A logistic regression model was trained using historical loan data to classify l
 
   - High-Risk Loans (1): 0.94 (6% of actual high-risk loans are missed)
 
-##Summary of Results & Model Recommendation
+## Summary of Results & Model Recommendation
 
 Key Findings
 
